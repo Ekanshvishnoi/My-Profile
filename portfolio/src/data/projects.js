@@ -1,0 +1,32 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Project One",
+    description: "Short description of what this project does and the problem it solves.",
+    image: "",
+    tags: ["React", "Node.js", "MongoDB"],
+    liveUrl: "https://",
+    githubUrl: "https://",
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Project Two",
+    description: "Short description of this project.",
+    image: "",
+    tags: ["Vue", "Firebase"],
+    liveUrl: "https://",
+    githubUrl: "https://",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "Project Three",
+    description: "Short description of this project.",
+    image: "",
+    tags: ["Next.js", "Tailwind"],
+    liveUrl: "https://",
+    githubUrl: "https://",
+    featured: false,
+  },
+]
