@@ -1,8 +1,12 @@
+import Hero from '../components/Hero'
+import FeaturedProjects from '../components/FeaturedProjects'
+
 export default function Home() {
   return (
-    <main className="min-h-screen px-7 py-12">
-      <h1 className="text-3xl font-bold text-white">Home Page</h1>
-      <p className="text-white/40 mt-2">Coming soon...</p>
+    <main className="min-h-screen">
+      <Hero />
+      <div className="h-px bg-white/5 mx-7" />
+      <FeaturedProjects />
     </main>
   )
 }
