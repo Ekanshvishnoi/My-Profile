@@ -71,7 +71,7 @@ export default function Contact() {
           <form onSubmit={handleSubmit} className="flex flex-col gap-4 max-w-xl">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="flex flex-col gap-1.5">
-                <label className="text-[11px] text-white/35">Your name</label>
+                <label className="text-[11px] text-white/35">Your Full name</label>
                 <input
                   type="text"
                   name="name"
