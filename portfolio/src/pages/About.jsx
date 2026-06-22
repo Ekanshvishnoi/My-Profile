@@ -34,7 +34,7 @@ export default function About() {
               <FiMail size={14} className="text-accent shrink-0" /> ekanshvishnoi6@email.com
             </div>
             <div className="flex items-center gap-2.5 text-xs text-white/40">
-              <FiGithub size={14} className="text-accent shrink-0" /> github.com/yourhandle
+              <FiGithub size={14} className="text-accent shrink-0" /> https://github.com/Ekanshvishnoi
             </div>
           </div>
         </motion.div>
@@ -45,18 +45,18 @@ export default function About() {
             Passionate about building for the web
           </h1>
           <p className="text-sm text-white/45 leading-relaxed mb-3">
-            Write 2-3 short paragraphs here about who you are, how you got into development,
-            what excites you about building things, and what kind of work you enjoy most.
-            Keep it personal and conversational, not just a list of facts.
+            I'm Ekansh Vishnoi, a computer science student passionate about building useful 
+            and digital websites. I enjoy solving problems, learning new technologies, and
+            turning ideas into real world projects.
           </p>
           <p className="text-sm text-white/45 leading-relaxed">
-            Mention your working style, what you're focused on right now, and anything that
-            makes you, you. Recruiters read this section to get a sense of personality, not
-            just skills.
+            Currently, I'm focused on web development, machine learning and cloud computing.
+            I enjoy writing clean code, experimenting new ideas and continuosly improving my
+            skills as a developer.
           </p>
           <div className="inline-flex items-center gap-2.5 mt-5 px-3.5 py-2 rounded-full border border-accent/30 bg-accent/5">
             <span className="w-1.5 h-1.5 rounded-full bg-accent" />
-            <span className="text-xs text-white/45">Currently learning: <span className="text-white/70">your current focus</span></span>
+            <span className="text-xs text-white/45">Currently learning: <span className="text-white/70">ExpressJs</span></span>
           </div>
         </motion.div>
       </section>
