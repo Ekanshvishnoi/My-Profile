@@ -36,13 +36,13 @@ export default function Hero() {
         </a>
 
         <div className="flex gap-2.5">
-          <a href="https://instagram.com" target="_blank" rel="noreferrer" className="w-[34px] h-[34px] border border-white/20 rounded-md flex items-center justify-center text-white/50 hover:text-accent hover:border-accent transition-colors">
+          <a href="https://www.instagram.com/_ekansh876_/" target="_blank" rel="noreferrer" className="w-[34px] h-[34px] border border-white/20 rounded-md flex items-center justify-center text-white/50 hover:text-accent hover:border-accent transition-colors">
             <FaInstagram size={15} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="w-[34px] h-[34px] border border-white/20 rounded-md flex items-center justify-center text-white/50 hover:text-accent hover:border-accent transition-colors">
+          <a href="https://www.linkedin.com/in/ekansh-vishnoi/" target="_blank" rel="noreferrer" className="w-[34px] h-[34px] border border-white/20 rounded-md flex items-center justify-center text-white/50 hover:text-accent hover:border-accent transition-colors">
             <FaLinkedin size={15} />
           </a>
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="w-[34px] h-[34px] border border-white/20 rounded-md flex items-center justify-center text-white/50 hover:text-accent hover:border-accent transition-colors">
+          <a href="https://github.com/Ekanshvishnoi" target="_blank" rel="noreferrer" className="w-[34px] h-[34px] border border-white/20 rounded-md flex items-center justify-center text-white/50 hover:text-accent hover:border-accent transition-colors">
             <FaGithub size={15} />
           </a>
         </div>
