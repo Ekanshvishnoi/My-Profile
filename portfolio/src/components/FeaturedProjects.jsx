@@ -6,7 +6,7 @@ export default function FeaturedProjects() {
   const featured = projects.filter((p) => p.featured).slice(0, 3)
 
   return (
-    <section className="px-7 pb-16 pt-4">
+    <section className="px-5 sm:px-7 pb-16 pt-4">
       <p className="text-[11px] tracking-wider uppercase text-white/30 mb-4">Featured projects</p>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         {featured.map((project, i) => (

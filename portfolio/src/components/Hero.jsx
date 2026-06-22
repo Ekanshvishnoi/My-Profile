@@ -10,7 +10,7 @@ export default function Hero() {
   const typedRole = useTypewriter(roles)
 
   return (
-    <section className="flex flex-col lg:flex-row items-center gap-6 px-7 pt-12 pb-10 lg:pt-16">
+    <section className="flex flex-col lg:flex-row items-center gap-6 px-5 sm:px-7 pt-10 sm:pt-12 pb-10 lg:pt-16">
       {/* Left: text content */}
       <motion.div
         className="flex-1 w-full"
@@ -18,11 +18,11 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <h1 className="text-5xl sm:text-6xl font-bold leading-[1.05] tracking-tight text-white mb-4">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight text-white mb-4">
           EKANSH <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VISHNOI
         </h1>
 
-        <p className="text-sm text-white/50 mb-6 h-5">
+        <p className="text-sm text-white/50 mb-6 min-h-[20px]">
           I'm a <span className="text-accent">{typedRole}</span>
           <span className="inline-block w-[2px] h-4 bg-accent ml-0.5 animate-pulse align-middle" />
           {' '}with X years of experience.
